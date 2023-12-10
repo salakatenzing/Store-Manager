@@ -2,10 +2,10 @@
 {
     public class OrderItem
     {
-        public int Id { get; set; }
-        public int OrderId { get; set; }
-        public int ProductId { get; set; }
-        public int Quantity { get; set; }
+        public int id { get; set; }
+        public int orderod { get; set; }
+        public int productid { get; set; }
+        public int quantity { get; set; }
 
       //relationship
         public OrderTable Order { get; set; }

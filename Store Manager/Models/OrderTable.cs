@@ -2,10 +2,10 @@
 {
     public class OrderTable
     {
-        public int Id { get; set; }
-        public int CustomerId { get; set; }
-        public DateTime Date { get; set; }
-        public decimal TotalAmount { get; set; }
+        public int id { get; set; }
+        public int customerid { get; set; }
+        public DateTime date { get; set; }
+        public decimal totalamount { get; set; }
 
         //relationship
         public Customer Customer { get; set; }

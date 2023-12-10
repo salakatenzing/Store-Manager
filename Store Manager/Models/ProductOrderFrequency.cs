@@ -2,8 +2,8 @@
 {
     public class ProductOrderFrequency
     {
-        public int ProductId { get; set; }
-        public int OrderFrequency { get; set; }
+        public int productid { get; set; }
+        public int orderfrequency { get; set; }
 
        //relationship
         public Product Product { get; set; }

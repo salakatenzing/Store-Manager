@@ -1,16 +1,30 @@
 using Microsoft.EntityFrameworkCore;
-using Store_Manager.Models;
+using Store_Manager;
+using Store_Manager.Data;
 using Store_Manager.Repositories;
+using Store_Manager.Seeds;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<MyDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddScoped<ProductRepository>();
+//put all the repo registrations in ServiceRegistration for cleaner look
+ServiceRegistration.RegisterServices(builder.Services);
 
 var app = builder.Build();
 app.MapControllers();
 
+//seeder
+// Initialize database context
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<MyDbContext>();
+    var productSeeder = new ProductSeeder(context);
+
+
+    productSeeder.SeedProducts();
+}
 
 
 

@@ -30,3 +30,4 @@ C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Npgsq
 C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.csproj.AssemblyReference.cache
 C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.csproj.CopyComplete
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.sourcelink.json
