@@ -1,0 +1,32 @@
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\appsettings.json
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Store Manager.exe
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Store Manager.deps.json
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Store Manager.runtimeconfig.json
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Store Manager.dll
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Store Manager.pdb
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.AssemblyInfoInputs.cache
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.AssemblyInfo.cs
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.csproj.CoreCompileInputs.cache
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\staticwebassets\msbuild.Store Manager.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\staticwebassets\msbuild.build.Store Manager.props
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Store Manager.props
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Store Manager.props
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\scopedcss\bundle\Store Manager.styles.css
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.dll
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\refint\Store Manager.dll
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.pdb
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.genruntimeconfig.cache
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\ref\Store Manager.dll
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.csproj.AssemblyReference.cache
+C:\Users\Yonthen\source\repos\Store Manager\Store Manager\obj\Debug\net8.0\Store Manager.csproj.CopyComplete

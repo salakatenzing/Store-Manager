@@ -1,0 +1,8 @@
+/bin/
+/obj/
+.vscode/
+.suo
+.user
+.vs/
+/packages/
+/packages.lock.json
