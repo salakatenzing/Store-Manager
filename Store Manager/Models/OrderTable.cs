@@ -9,5 +9,8 @@
 
         //relationship
         public Customer Customer { get; set; }
+
+        //to handle list of order items in one order
+        public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
     }
 }

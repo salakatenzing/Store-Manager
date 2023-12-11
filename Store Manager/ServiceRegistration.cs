@@ -9,7 +9,8 @@ namespace Store_Manager
         {
             services.AddScoped<ProductRepository>();
             services.AddScoped<CustomerRepository>();
-           
+            services.AddScoped<OrderItemRepository>();
+            services.AddScoped<OrderTableRepository>();
         }
     }
 }

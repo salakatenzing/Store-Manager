@@ -2,7 +2,7 @@
 using Store_Manager.Models;
 using Store_Manager.Repositories;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
 
 namespace Store_Manager.Controllers
 {
