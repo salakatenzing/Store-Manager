@@ -7,6 +7,9 @@ using Store_Manager.Seeds;
 using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 //avoids recursive call to references to the relation inside each entity class. OrderItem to Order and then back to OrderItem
 builder.Services.AddControllers()
         .AddJsonOptions(options =>
@@ -33,6 +36,10 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
 app.UseCors("MyCorsPolicy");
 app.MapControllers();
 

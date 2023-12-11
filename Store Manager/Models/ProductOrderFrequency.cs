@@ -2,10 +2,11 @@
 {
     public class ProductOrderFrequency
     {
+        public int id { get; set; }
         public int productid { get; set; }
         public int orderfrequency { get; set; }
 
        //relationship
-        public Product Product { get; set; }
+        public virtual Product Product { get; set; }
     }
 }

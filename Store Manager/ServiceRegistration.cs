@@ -12,6 +12,7 @@ namespace Store_Manager
             services.AddScoped<CustomerRepository>();
             services.AddScoped<OrderItemRepository>();
             services.AddScoped<OrderTableRepository>();
+            services.AddScoped<ProductFrequencyRepository>();
         }
     }
 }

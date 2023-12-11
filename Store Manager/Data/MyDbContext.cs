@@ -14,5 +14,6 @@ namespace Store_Manager.Data
         public DbSet<Customer> customer { get; set; }
         public DbSet<OrderItem> order_item { get; set; }
         public DbSet<OrderTable> order_table { get; set; }
+        public DbSet<ProductOrderFrequency> product_order_frequency { get; set; }
     }
 }
