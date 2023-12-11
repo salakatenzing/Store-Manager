@@ -14,4 +14,9 @@ Database
 
 ![db_ss](https://github.com/salakatenzing/Store-Manager/assets/20289725/06b3e2a5-534c-4395-b258-a4d3bc053338)
 
+Entry point file
+
+![VisualStudio_ss](https://github.com/salakatenzing/Store-Manager/assets/20289725/4faa435b-619f-41d2-bef5-c40c13ee35d9)
+
+
 
