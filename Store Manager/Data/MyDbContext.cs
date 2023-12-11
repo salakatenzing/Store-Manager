@@ -12,7 +12,7 @@ namespace Store_Manager.Data
 
         public DbSet<Product> product { get; set; }
         public DbSet<Customer> customer { get; set; }
-        public DbSet<OrderItem> orderitem { get; set; }
-        public DbSet<OrderTable> ordertable { get; set; }
+        public DbSet<OrderItem> order_item { get; set; }
+        public DbSet<OrderTable> order_table { get; set; }
     }
 }

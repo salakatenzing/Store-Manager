@@ -1,11 +1,19 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Store_Manager;
 using Store_Manager.Data;
 using Store_Manager.Repositories;
 using Store_Manager.Seeds;
+using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+//avoids recursive call to references to the relation inside each entity class. OrderItem to Order and then back to OrderItem
+builder.Services.AddControllers()
+        .AddJsonOptions(options =>
+        {
+            options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        });
+
 //connection to the db
 builder.Services.AddDbContext<MyDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));

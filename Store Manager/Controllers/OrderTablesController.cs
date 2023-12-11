@@ -25,5 +25,6 @@ namespace Store_Manager.Controllers
                 return StatusCode(500, "Internal server error");
             }
         }
+       
     }
 }

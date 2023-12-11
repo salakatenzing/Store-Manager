@@ -16,19 +16,19 @@ namespace Store_Manager.Repositories
       
         public async Task<List<OrderItem>> GetAllOrderItemsAsync()
         {
-            return await _context.orderitem.ToListAsync();
+            return await _context.order_item.ToListAsync();
         }
 
        
         public async Task<OrderItem> GetOrderItemByIdAsync(int orderItemId)
         {
-            return await _context.orderitem.FindAsync(orderItemId);
+            return await _context.order_item.FindAsync(orderItemId);
         }
 
        
         public async Task AddOrderItemAsync(OrderItem orderItem)
         {
-            _context.orderitem.Add(orderItem);
+            _context.order_item.Add(orderItem);
             await _context.SaveChangesAsync();
         }
 
@@ -42,10 +42,10 @@ namespace Store_Manager.Repositories
        
         public async Task DeleteOrderItemAsync(int orderItemId)
         {
-            var orderItem = await _context.orderitem.FindAsync(orderItemId);
+            var orderItem = await _context.order_item.FindAsync(orderItemId);
             if (orderItem != null)
             {
-                _context.orderitem.Remove(orderItem);
+                _context.order_item.Remove(orderItem);
                 await _context.SaveChangesAsync();
             }
         }

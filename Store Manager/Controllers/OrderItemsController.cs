@@ -46,7 +46,8 @@ namespace Store_Manager.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddOrderItem(OrderItem orderItem)
+        
+        public async Task<IActionResult> AddOrderItem([FromBody]OrderItem orderItem)
         {
             try
             {

@@ -14,10 +14,17 @@ namespace Store_Manager.Repositories
         }
         public async Task<List<OrderTable>> GetOrderTablesAsync()
         {
-            return await _context.ordertable
+            return await _context.order_table
         .Include(o => o.OrderItems) 
             .ThenInclude(oi => oi.Product)
         .ToListAsync();
         }
+        public async Task AddOrderTablesAsync(OrderTable orderTable)
+        {
+            _context.order_table.Add(orderTable);
+            await _context.SaveChangesAsync();
+        }
+
+       
     }
 }
